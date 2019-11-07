@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    tools:context="com.example.burakn.araproje.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:text="LOKASYON BAZLI SOSYAL AĞLARDA YER TAHMİNİ"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userid"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="Kullanıcı ID"
+        android:inputType="number"
+        android:padding="10dp"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/basla"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="26dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:text="HESAPLA"
+        android:textAlignment="center"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/userid"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="66dp" />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lokasyon Bazlı Sosyal Ağlarda Yer Tahmini</string>
+    <string name="title_activity_harita">Map</string>
+</resources>

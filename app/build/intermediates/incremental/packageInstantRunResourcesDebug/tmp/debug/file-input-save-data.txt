@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jun 18 23:09:20 EET 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\furka\\Desktop\\Code\\app\\build\\intermediates\\assets\\debug
+0.path=AraProje.db
+0.set=ASSET
+count=1

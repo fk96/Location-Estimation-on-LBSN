@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sun May 19 14:26:03 EET 2019
+1.base=C\:\\Users\\Burak N\\Desktop\\Ara Proje Teslim\\Code\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=AraProjeSon.db
+0.set=ASSET
+0.base=C\:\\Users\\Burak N\\Desktop\\Ara Proje Teslim\\Code\\app\\build\\intermediates\\assets\\release
+1.path=classes.dex
